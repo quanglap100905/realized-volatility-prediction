@@ -102,8 +102,5 @@ python src/train.py
 
 The pipeline executes feature engineering, t-SNE-based time reconstruction, cross-validation, model training, and ensemble blending.
 
-For Kaggle submissions, the corresponding inference pipeline is available in:
+For Kaggle submissions, see the [Kaggle Notebook](https://www.kaggle.com/code/quanglapnguyen/optiver-trading), which contains the corresponding inference pipeline.
 
-```text
-notebooks/kaggle_submission.ipynb
-```
