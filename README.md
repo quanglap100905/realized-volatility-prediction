@@ -72,10 +72,6 @@ realized-volatility-prediction/
     │   ├── har_rv.py           # Multi-scale realized volatility and volatility slope
     │   ├── microstructure.py   # Feature Engineering for Limit Order Book and Trading data
     │   └── macro_tsne.py      # Macro-timeline reconstruction
-    ├── models/
-    │   ├── __init__.py
-    │   ├── lightgbm_model.py   # LightGBM with target encoding
-    │   └── catboost_model.py   # CatBoost with categorical features
     └── train.py                # GroupKFold loop and ensembling logic
 
 ```
